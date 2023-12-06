@@ -1,0 +1,199 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.card {
+    /* overflow: auto !important; */
+}
+
+.overflow {
+    overflow: auto !important;
+}
+
+.f-12 {
+    font-size: 12px !important;
+}
+
+.card-slide {
+    width: 50% !important;
+    height: fit-content !important;
+}
+
+.select2 {
+    width: 100% !important;
+}
+
+@media screen and (max-width: 768px) {
+    .card-slide {
+        width: 100% !important;
+        height: fit-content !important;
+    }
+}
+
+.duplicate-row {
+    border: 1px solid red;
+}
+
+.bg-orange {
+    background: #eaaf66;
+}
+
+.bg-dark-orange {
+    background: #e6870e;
+}
+
+.bg-blue {
+    background: #7a93f1;
+}
+
+.bg-light-green {
+    background: #04b904;
+}
+
+.hide {
+    display: none;
+}
+
+.S-out-remove-row {
+    float: right;
+    margin-top: -23px;
+    margin-right: -13px;
+}
+
+.word-wrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.status-btn {
+    padding: 2px 12px 2px 12px;
+    border-radius: 16px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.profile-image {
+    width: 100%;
+    object-fit: cover;
+    height: 100px;
+}
+
+.pd-skew {
+    padding: 0px 13px 0px 13px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* orders_table */
+.orders_table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.orders_table td,
+th {
+    border-bottom: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.card-img-top {
+    height: 140px;
+    object-fit: contain;
+}
+
+.card-height {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.table-responsive .dataTables_wrapper .row .dataTables_length {
+    padding-left: 0;
+}
+
+.table-responsive .dataTables_wrapper .row .dataTables_filter,
+.table-responsive .dataTables_wrapper .row .dataTables_paginate {
+    padding-right: 0;
+}
+
+table.dataTable th:first-child,
+table.dataTable td:first-child {
+    width: 20px;
+    /* Adjust the width as needed */
+}
+
+.table-responsive .dataTables_wrapper .row:nth-child(2) {
+    overflow: auto !important;
+}
+
+.image-uploader .uploaded .uploaded-image {
+    width: calc(32.666667% - 1rem) !important;
+}
+
+.p-3-half {
+    padding: 2.5rem !important;
+}
+
+.swal2-cancel {
+    margin-left: 10px !important;
+}
+
+.order_status {
+    width: 100%;
+}
+
+.order_status tr th {
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+    background: #dddddd;
+}
+
+.order_status td {
+    border-bottom: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+        width: 100%;
+        *width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+        width: 14.285714285714285714285714285714%;
+        *width: 14.285714285714285714285714285714%;
+    }
+}
+
+/**
+   *  The following is not really needed in this case
+   *  Only to demonstrate the usage of @media for large screens
+   */
+@media (min-width: 1200px) {
+
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+        width: 14.285714285714285714285714285714%;
+        *width: 14.285714285714285714285714285714%;
+    }
+}
